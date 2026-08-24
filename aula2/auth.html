@@ -1,0 +1,48 @@
+ <p><a href="index.html">Voltar</a> </p>
+</h2>Meu formulario</h2>
+<p>Preencha as informações abaixo.</p>
+<form id="formRegister">
+
+        Nome: <input id="iName" type="text" placeholder="Digite seu nome completo" /> <br>
+        email: <input id="iEmail" placeholder="Digite seu melhor email" /> <br>
+        senha: <input id="iPass" placeholder="Letra maiscula e numeros" /> <br>
+        data de nascimento: <input id="iBirth" type="date" placeholder="DD/MM/HH" /> <br>
+        <button type="submit">salvar</button>
+<form>
+
+    <h2>Resposta</h2>
+    <pre id="pResponse"><</p>
+
+<script>
+    var users =[]
+    //document é a pagina toda
+    // get = pegar, elemento = elemento do html
+    var formR = document.getElementById("formRegister");
+//adicionado escutar o evento
+    formR.addEventListener("submit",(e)=>{
+        e.preventDefault(); //impede atualizar a tela
+
+        let name = document.getElementById("iName").value
+        let email = document.getElementById("iEmail").value
+        let pass = document.getElementById("iPass").value
+        let birth = document.getElementById("iBirth").value
+
+        const user = {//objeto anonimo, estrutura, json
+            nome: name,
+            email: email,
+            senha: pass,
+            nascimento: birth
+        }
+
+        users.push(user)
+
+        let response = document.getElementById("pResponse")
+        response.innerHTML = JSON.stringify(users, null, 4);
+})
+
+
+
+
+</script>
+
+    <br>
