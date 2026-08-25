@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title> Aula 9 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a href="index.html">Voltar</a>
+    </p>
+    <p id="Bemvindo"></p>
+
+    <div class="h-full flex">
+        <div id="modalRegister" class="fixed p=5 bg-about rouded-lg shadow-md column hidden">
+            <form id="formRegister" class="flex column">
+                Nome: <input id="iName" type="text" placeholder="Digite seu nome completo" /> <br>
+                email: <input id="iEmail" type="email" placeholder="Digite seu melhor email" /> <br>
+                senha: <input id="iPass" type="password" placeholder="Letra maiscula e numeros" /> <br>
+                data de nascimento: <input id="iBirth" type="date" placeholder="DD/MM/HH" /> <br>
+                <button type="submit">salvar</button>
+
+            </form>
+        </div>
+        <h2>Resposta</h2>
+        <pre id="pResponse"></pre>
+    </div>
+
+
+    <a id="addUser" class="rounded-full bg-primary text-white px-4 py-3 fixed bottom-0 right-0"> + </a>
+    <script src="user.js"></script>
+    <script src="painel.js"> </script>
+
+
+
+</body>
+
+</html>

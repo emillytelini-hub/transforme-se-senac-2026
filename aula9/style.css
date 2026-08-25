@@ -44,7 +44,7 @@
    7. SELETORES POR TAG
    ========================================================= */
 body {
-  background-color: #126859;
+  background-color: #c00d0d;
   font-family: "Playwrite DE SAS Guides", cursive, normal;
   font-weight: 400;
   color: #000000;
@@ -52,16 +52,16 @@ body {
 }
 
 h2 {
-  color: #fcf9f9; /* sobre o projeto */
+  color: #333333;
 }
 
 p {
-  color: #f1f1f17c;
+  color: #030539;
   font-family: "Lucida Sans", Verdana, sans-serif;
 }
 
 a {
-  color: #7700e6; /* sobre preços la encima */
+  color: #080527;
   text-decoration: none;
   font-family: "Lucida Sans", Verdana, sans-serif;
 }
@@ -82,15 +82,15 @@ a {
    8. SELETORES POR ID
    ========================================================= */
 #about {
-  background-color: #098aaa;
+  background-color: #acd4f9;
 }
 
 #prices {
-  background-color: #156d6d;
+  background-color: #f2f9ac;
 }
 
 #feature {
-  background-color: #b91690;
+  background-color: #acf9c0;
 }
 
 /* =========================================================
@@ -513,7 +513,7 @@ a {
 }
 
 .bg-white {
-  background-color: rgb(226, 227, 230);
+  background-color: #6b4343;
 }
 
 .bg-about {
@@ -525,7 +525,7 @@ a {
 }
 
 .bg-prices {
-  background-color: #c4d600;
+  background-color: #f2f9ac;
 }
 
 /* =========================================================
@@ -552,7 +552,7 @@ a {
 }
 
 .hover\:bg-white:hover {
-  background-color: #FFFFFF;
+  background-color: #6b4343;
 }
 
 .hover\:bg-about:hover {
@@ -583,7 +583,7 @@ a {
 }
 
 .focus\:bg-white:focus {
-  background-color: #FFFFFF;
+  background-color: #6b4343;
 }
 
 .focus\:bg-about:focus {
@@ -614,7 +614,7 @@ a {
 }
 
 .active\:bg-white:active {
-  background-color: #FFFFFF;
+  background-color: #6b4343;
 }
 
 .active\:bg-about:active {
@@ -633,7 +633,7 @@ a {
    16. CORES DE TEXTO
    ========================================================= */
 .text-white {
-  color: #FFFFFF;
+  color: #6b4343;
 }
 
 .text-dark {
@@ -652,7 +652,7 @@ a {
    17. TEXTO + HOVER
    ========================================================= */
 .hover\:text-white:hover {
-  color: #FFFFFF;
+  color: #6b4343;
 }
 
 .hover\:text-dark:hover {
@@ -725,6 +725,14 @@ a {
 
 .flex {
   display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.hidden {
+  display: none;
 }
 
 /* =========================================================

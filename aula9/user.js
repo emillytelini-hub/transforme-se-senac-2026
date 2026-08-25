@@ -31,7 +31,7 @@ localStorage.setItem("users", JSON.stringify(users))
 })
 
 var formL = document.getElementById("formLogin");
-formL?.addEventListener("submit", (e) => {
+formL?.addEventListener("click", (e) => {
         e.preventDefault();
     let email = document.getElementById("iEmailLogin").value
     let pass = document.getElementById("iPassLogin").value
