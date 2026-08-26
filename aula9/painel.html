@@ -10,28 +10,52 @@
     </p>
     <p id="Bemvindo"></p>
 
-    <div class="h-full flex">
-        <div id="modalRegister" class="fixed p=5 bg-about rouded-lg shadow-md column hidden">
-            <form id="formRegister" class="flex column">
-                Nome: <input id="iName" type="text" placeholder="Digite seu nome completo" /> <br>
-                email: <input id="iEmail" type="email" placeholder="Digite seu melhor email" /> <br>
-                senha: <input id="iPass" type="password" placeholder="Letra maiscula e numeros" /> <br>
-                data de nascimento: <input id="iBirth" type="date" placeholder="DD/MM/HH" /> <br>
-                <button type="submit">salvar</button>
+    <div id="modalRegister"
+        class="fixed top-0 right-0 bottom-0 left-0 hidden items-center justify-center bg-black-50 z-50 ">
+        <div class="relative max-w-md w-full p-5 bg-about rounded-lg shadow-md flex column">
+            <a id="btClose" class="bg-prices absolute top-0 right-0 px-2 rounded-full">X</a>
+            <h2>Cadastre um novo usuário</h2>
+            <p>Preencha as informações abaixo</p>
+
+            <form class="flex column">
+
+                Nome:
+                <input id="iName" type="text" placeholder="Digite seu nome completo" />
+
+                Email:
+                <input id="iEmail" type="email" placeholder="Digite o seu melhor email" />
+
+                <br>
+
+                Senha:
+                <input id="iPass" type="password" placeholder="Letra maiúscula e números" />
+
+                Data de nascimento:
+                <input id="iBirth" type="date" />
+
+                <br>
+
+                <a id="formRegister" class="mt-5 bg-primary text-white text-center rounded-md py-2">Salvar</a>
 
             </form>
         </div>
-        <h2>Resposta</h2>
-        <pre id="pResponse"></pre>
     </div>
 
+    <table>
+        <thead> 
+            <th> Nome</th> 
+            <th> Email</th>
+            <th> Ações </th>
+        </thead>
+        <tbody id="listUsers">
+           
+        </tbody>
+    </table>
 
-    <a id="addUser" class="rounded-full bg-primary text-white px-4 py-3 fixed bottom-0 right-0"> + </a>
+    <a id="addUser" class="rounded-full bg-primary text-white px-4 py-3 fixed  bottom-0 right-0"> + </a>
+
     <script src="user.js"></script>
-    <script src="painel.js"> </script>
-
-
-
+    <script src="painel.js"></script>
 </body>
 
 </html>

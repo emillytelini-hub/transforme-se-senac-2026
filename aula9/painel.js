@@ -1,8 +1,13 @@
-const btAddUser= document.getElementById("addUser");
-
-btAddUser?.addEventLister("click", (e) => {
-    console.log("passou")
-    const modalRegister= document.getElementById("modalRegister");
+const btAddUser = document.getElementById("addUser")
+btAddUser?.addEventListener("click", (e) => {
+    const modalRegister = document.getElementById("modalRegister");
     modalRegister.classList.remove("hidden");
     modalRegister.classList.add("flex")
+});
+
+const btClose = document.getElementById("btClose")
+btClose?.addEventListener("click", (e) => {
+    const modalRegister = document.getElementById("modalRegister");
+    modalRegister.classList.remove("flex");
+    modalRegister.classList.add("hidden")
 });

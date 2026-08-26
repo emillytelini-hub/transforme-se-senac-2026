@@ -1,4 +1,4 @@
-$coloe-background : #801b1b;
+$coloe-background : #000000a1;
 $color-text: #573535;
 $color-title: #333333;
 $color-paragranph: #030539;
@@ -30,7 +30,7 @@ $font-secondary: "Roboto", sans-serif, normal;
    1. VARIÁVEIS
    ========================================================= */
 
-$color-background: #c00d0d;
+$color-background: #16533a;
 $color-text: #000000;
 $color-title: #333333;
 $color-paragraph: #030539;
@@ -63,7 +63,8 @@ $backgrounds: (
     "white": $color-white,
     "about": $color-about,
     "feature": $color-feature,
-    "prices": $color-prices
+    "prices": $color-prices,
+    "black-50":  rgba(0, 0, 0, 0.822)
 );
 
 $text-colors: (
