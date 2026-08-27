@@ -22,7 +22,7 @@ if (listUsers) {
         tdAction.appendChild(btV);
 
         let span = document.createElement ("span");
-        span.innerHTML = "--";
+        span.innerHTML = " -- ";
         tdAction.appendChild(span);
          
 
