@@ -47,12 +47,12 @@ body {
   background-color: #16533a;
   font-family: "Playwrite DE SAS Guides", cursive, normal;
   font-weight: 400;
-  color: #000000;
+  color: #000000 #fff;
   margin: 0;
 }
 
 h2 {
-  color: #ebebeb;
+  color: #333333;
 }
 
 p {
@@ -82,7 +82,7 @@ a {
    8. SELETORES POR ID
    ========================================================= */
 #about {
-  background-color: #accbf9 #acf9bd;
+  background-color: #acd4f9 #8cd69f;
 }
 
 #prices {
@@ -90,7 +90,7 @@ a {
 }
 
 #feature {
-  background-color: #1b9121;
+  background-color: #acf9df;
 }
 
 /* =========================================================
@@ -501,35 +501,35 @@ a {
    .bg-dark
    ========================================================= */
 .bg-primary {
-  background-color: #240fe5 #1889b6;
+  background-color: #240fe5 #2998c4;
 }
 
 .bg-secondary {
-  background-color: #fefefe #1889b6;
+  background-color: #fefefe #2998c4;
 }
 
 .bg-dark {
-  background-color: #000000 #1889b6;
+  background-color: #000000 #2998c4;
 }
 
 .bg-white {
-  background-color: #6b4343 #1889b6;
+  background-color: #6b4343 #2998c4;
 }
 
 .bg-about {
-  background-color: #acd4f9 #1889b6;
+  background-color: #acd4f9 #2998c4;
 }
 
 .bg-feature {
-  background-color: #acf9c0 #1889b6;
+  background-color: #acf9df #2998c4;
 }
 
 .bg-prices {
-  background-color: #1f9b61 #0a7c60 #1889b6;
+  background-color: #1f9b61 #0a7c56 #2998c4;
 }
 
 .bg-black-50 {
-  background-color: rgba(0, 0, 0, 0.822) #1889b6;
+  background-color: rgba(0, 0, 0, 0.822) #2998c4;
 }
 
 /* =========================================================
@@ -564,11 +564,11 @@ a {
 }
 
 .hover\:bg-feature:hover {
-  background-color: #acf9c0;
+  background-color: #acf9df;
 }
 
 .hover\:bg-prices:hover {
-  background-color: #1f9b61 #0a7c60;
+  background-color: #1f9b61 #0a7c56;
 }
 
 .hover\:bg-black-50:hover {
@@ -599,11 +599,11 @@ a {
 }
 
 .focus\:bg-feature:focus {
-  background-color: #acf9c0;
+  background-color: #acf9df;
 }
 
 .focus\:bg-prices:focus {
-  background-color: #1f9b61 #0a7c60;
+  background-color: #1f9b61 #0a7c56;
 }
 
 .focus\:bg-black-50:focus {
@@ -634,11 +634,11 @@ a {
 }
 
 .active\:bg-feature:active {
-  background-color: #acf9c0;
+  background-color: #acf9df;
 }
 
 .active\:bg-prices:active {
-  background-color: #1f9b61 #0a7c60;
+  background-color: #1f9b61 #0a7c56;
 }
 
 .active\:bg-black-50:active {
